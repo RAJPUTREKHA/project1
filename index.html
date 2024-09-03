@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Minus 5º Ice Bar</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__logo">
+      <a href="#"><img src="assets/logo2.png" alt="logo" /></a>
+    </div>
+    <ul class="nav__links">
+      <li class="link"><a href="#">Home</a></li>
+      <li class="link"><a href="#" id="about-us-link">About Us</a></li>
+      <li class="link"><a href="#" id="contact-us-link">Contact Us</a></li>
+    </ul>
+    <button class="btn">Book Now</button>
+  </nav>
+
+  <header class="section__container header__container">
+    <div class="header__content">
+      <span class="bg__blur"></span>
+      <span class="bg__blur header__blur"></span>
+      <h4>EXPERIENCE MINUS 5º ICE BAR</h4>
+      <h1><span>THE</span> TOWN’S COOLEST EXPERIENCE</h1>
+      <p>
+        A friendly experience or a pre-dinner chilly cocktail Minus 5º ICE BAR is the town’s coolest experience and an
+        adventure you’ll never forget.
+      </p>
+      <button class="btn">Book Now</button>
+    </div>
+    <div class="header__image">
+      <img src="assets/image4.jpeg" alt="header" />
+    </div>
+  </header>
+
+  <section class="section__container explore__container">
+    <div class="explore__header">
+      <h2 class="section__header">CREATE MEMORIES WITH MINUS 5º ICE BAR</h2>
+    </div>
+    <div class="explore__grid">
+      <div class="explore__card">
+        <h4>Skating</h4>
+        <p>
+          Glide across our ice rink and enjoy the ultimate skating experience in a chilly environment.
+        </p>
+      </div>
+      <div class="explore__card">
+        <h4>VR</h4>
+        <p>
+          Immerse yourself in an exciting virtual reality adventure that's cool and captivating.
+        </p>
+      </div>
+      <div class="explore__card">
+        <h4>Photobooth</h4>
+        <p>
+          Capture the moment with our fun and frosty photobooth experience.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container class__container">
+    <div class="class__image">
+      <span class="bg__blur"></span>
+      <img src="assets/image5.jpeg" alt="class" class="class__img-1" />
+      <img src="assets/image2.jpeg" alt="class" class="class__img-2" />
+    </div>
+    <div class="class__content">
+      <h2 class="section__header">PARTY WITH MINUS 5º ICE BAR</h2>
+      <p>
+        Available for private venue hire, for a range of group types, sizes, and ages to suit your needs. We can host 25
+        – 100 people in one experience.
+      </p>
+    </div>
+  </section>
+
+  <section class="section__container join__container">
+    <div class="join__image">
+      <img src="assets/image8.jpeg" alt="Join" />
+      <div class="join__grid">
+        <div class="join__card">
+          <span><i class="ri-map-pin-fill"></i></span>
+          <div class="join__card__content">
+            <h4>Location</h4>
+            <p>355, Ram Das Nayak Road, Bandra West, Bandra - 400050 Mumbai, India.</p>
+          </div>
+        </div>
+        <div class="join__card">
+          <span><i class="ri-mail-fill"></i></span>
+          <div class="join__card__content">
+            <h4>Contact Us</h4>
+            <p>Email id - minus5@gmail.com</p>
+            <p>Number - 022 638 95457</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section__container footer__container">
+    <span class="bg__blur"></span>
+    <span class="bg__blur footer__blur"></span>
+    <div class="footer__col">
+      <p>
+        Experience the ultimate chill with our unique ice bar adventures. Let’s create memories together in the coolest
+        way possible!
+      </p>
+      <h2>AVAILABLE ON</h2>
+      <div class="footer__socials">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h2>FAQ</h2>
+      <p>• What are the check-in and check-out times?</p>
+      <p>->Check-in is from 10 am and check-out is until 10 pm.</p><br>
+      <p>• Which is the most popular activity to try out ?</p>
+      <p>->VR is the most popular activity to try out.</p><br>
+      <p>• What is the speciality of your services?</p>
+      <p>->Our cocktails as it provides energy to try out our various activities in chilling cold temperature</p>
+
+
+    </div>
+  </footer>
+  
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+  </div>
+
+</body>
+<script>
+  document.getElementById('about-us-link').addEventListener('click', function (event) {
+    event.preventDefault(); // Prevent default link behavior
+
+    // Scroll to the explore section
+    document.querySelector('.explore__container').scrollIntoView({ behavior: 'smooth' });
+
+    // Optionally, add any animation or class to highlight the explore section
+  });
+
+  document.getElementById('contact-us-link').addEventListener('click', function (event) {
+    event.preventDefault(); // Prevent default link behavior
+
+    // Scroll to the contact section
+    document.querySelector('.join__container').scrollIntoView({ behavior: 'smooth' });
+
+    // Optionally, add any animation or class to highlight the contact section
+  });
+
+  document.querySelector('.nav__links .link a[href="#"]').addEventListener('click', function (event) {
+    event.preventDefault(); // Prevent default link behavior
+
+    // Scroll to the header section (Home section)
+    document.querySelector('.header__container').scrollIntoView({ behavior: 'smooth' });
+
+    // Optionally, add any animation or class to highlight the home section
+  });
+
+</script>
+
+</html>
